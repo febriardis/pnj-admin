@@ -1,0 +1,77 @@
+
+
+.tableFixHead { overflow-y: auto; text-align:  center;}
+.tableFixHead thead tr:nth-child(1) th { position: sticky; z-index:2; top: 0; }
+.tableFixHead thead tr:nth-child(2) th { position: sticky; z-index:2; top: 38px; border: 1px solid #fff;}
+.tableFixHead tfoot th { position: sticky; bottom: 0; border: 1px solid #fff;}
+
+.table {
+    width: 100%;
+    color: #575757;
+    background-color: transparent;
+}
+
+.table-nopadding th, .table-nopadding td{
+    padding: 0px !important;
+}
+
+.table-list th, .table-list td{
+    padding: 0.5rem !important;
+}
+
+.table th,
+.table td {
+    padding: 3px;
+    vertical-align: top;
+    border-top: 1px solid #ebebeb;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ebebeb;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #ebebeb;
+}
+
+
+.table-bordered {
+    border: 1px solid #ebebeb;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #ebebeb;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+    border-bottom-width: 2px;
+}
+
+.table-borderless th,
+.table-borderless td,
+.table-borderless thead th,
+.table-borderless tbody + tbody {
+    border: 0;
+}
+
+.table-striped{
+    background-color: #FFFFFF !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #FAFAFA;
+}
+
+.table-vcenter th,
+.table-vcenter td {
+    vertical-align: middle;
+}
+.table-sticky-column {
+    position: sticky;
+    right: 0;
+    background: white;
+    border: 1px solid grey;
+}

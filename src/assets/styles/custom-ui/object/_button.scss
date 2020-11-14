@@ -1,0 +1,15 @@
+.btn-outline-grey{
+    color: grey;
+    border-color: grey;
+    &:hover{
+        color: grey;
+    }
+}
+
+.btn-grey-100 {
+    color: #102A43;
+    background-color: #F3F4F5;
+    &:hover {
+        color: #102A43;
+    }
+}
